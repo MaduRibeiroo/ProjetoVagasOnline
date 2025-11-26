@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 import java.util.regex.Pattern;
 
 @Service
-public class InteresseService {
+public class  InteresseService {
 
     @Autowired
     private VagasService vagasService;
