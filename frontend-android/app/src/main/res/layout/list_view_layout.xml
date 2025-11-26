@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#FFFFFF">
+
+    <!-- REGISTRO -->
+    <TextView
+        android:id="@+id/tvRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <!-- EMPRESA - Nome Fantasia -->
+    <TextView
+        android:id="@+id/tvEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tech Solutions"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#333333"
+        android:layout_marginTop="4dp"/>
+
+    <!-- CARGO -->
+    <TextView
+        android:id="@+id/tvCargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvedor Full Stack"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="4dp"/>
+
+    <!-- LOCALIDADE: Cidade + Estado -->
+    <TextView
+        android:id="@+id/tvLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="São Paulo - SP"
+        android:textSize="15sp"
+        android:textColor="#444444"
+        android:layout_marginTop="4dp"/>
+
+    <!-- JORNADA -->
+    <TextView
+        android:id="@+id/tvJornada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40 horas semanais"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_marginTop="4dp"/>
+
+    <!-- REMUNERAÇÃO -->
+    <TextView
+        android:id="@+id/tvSalario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 8.000,00"
+        android:textSize="16sp"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"/>
+
+</LinearLayout>
